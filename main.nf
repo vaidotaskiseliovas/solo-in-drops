@@ -199,7 +199,7 @@ process bcl_to_fastq {
     --use-bases-mask y*,I*,y*,y* \\
     --no-lane-splitting \\
     --create-fastq-for-index-reads \\
-    --barcode-mismatches 6 \\
+    --barcode-mismatches 1 \\
     --processing-threads $task.cpus
     """
 }
@@ -328,7 +328,7 @@ process starsolo {
     --outSAMtype BAM SortedByCoordinate \\
     --outBAMsortingBinsN 20 \\
     --outSAMattributes NH HI AS nM CB UB \\
-    --limitBAMsortRAM 1299605849 \\
+    --limitBAMsortRAM 1135652550 \\
     --runDirPerm All_RWX \\
     --readFilesCommand zcat \\
     --soloFeatures Gene \\
