@@ -328,7 +328,7 @@ process starsolo {
     --outSAMtype BAM SortedByCoordinate \\
     --outBAMsortingBinsN 20 \\
     --outSAMattributes NH HI AS nM CB UB \\
-    --limitBAMsortRAM 4241170307 \\
+    --limitBAMsortRAM 1276424241 \\
     --runDirPerm All_RWX \\
     --readFilesCommand zcat \\
     --soloFeatures Gene \\
